@@ -42,7 +42,7 @@
 
 (defun distraction-free-enable ()
   (interactive)
-  (setq buffer-face-mode-face '(:family "iA Writer Mono V" :height 150))
+  (setq buffer-face-mode-face '(:family "iA Writer Mono V" :height 135))
   (buffer-face-mode)
   (linum-mode 0)
   (blink-cursor-mode 1)
@@ -52,7 +52,7 @@
   (setq truncate-lines nil)
   (setq line-spacing 0.65)
   (spacemacs/toggle-highlight-current-line-globally-off)
-  (setq visual-fill-column-width 108)
+  (setq visual-fill-column-width 100)
   (visual-fill-column-mode)
   )
 
@@ -64,7 +64,7 @@
   (visual-line-mode 0)
   (setq truncate-lines nil)
   (setq line-spacing nil)
-  (setq visual-fill-column-width 80)
+  (setq visual-fill-column-width nil)
   (spacemacs/toggle-highlight-current-line-globally-on)
   )
 
