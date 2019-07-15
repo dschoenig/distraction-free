@@ -22,5 +22,7 @@ The layer depends on the [iA Writer fonts](https://github.com/iaolo/iA-Fonts) to
 
 | Key Binding | Description                         |
 | :--         | :--                                 |
-| `SPC d d`   | Toggle the distraction-free editing |
+| `SPC d d`   | Toggle distraction-free editing |
 | `SPC d t`   | Toggle typewriter-like editing      |
+
+Font size and writing area can be scaled by entering the font scaling transient state with `SPC z x`.
