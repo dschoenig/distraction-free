@@ -42,7 +42,7 @@
 
 (defun distraction-free-enable ()
   (interactive)
-  (setq buffer-face-mode-face '(:family "iA Writer Mono V" :height 135))
+  (setq buffer-face-mode-face '(:family "iA Writer Mono V" :height 140))
   (buffer-face-mode)
   (linum-mode 0)
   (blink-cursor-mode 1)
@@ -50,10 +50,11 @@
   (setq bottom-divider-width 0)
   (spacemacs/toggle-visual-line-navigation-on)
   (setq truncate-lines nil)
-  (setq line-spacing 0.65)
+  (setq line-spacing 0.60)
   (spacemacs/toggle-highlight-current-line-globally-off)
-  (setq visual-fill-column-width 100)
+  (setq visual-fill-column-width 88)
   (visual-fill-column-mode)
+  (spacemacs/toggle-vi-tilde-fringe-off)
   )
 
 (defun distraction-free-disable ()
@@ -66,6 +67,7 @@
   (setq line-spacing nil)
   (setq visual-fill-column-width nil)
   (spacemacs/toggle-highlight-current-line-globally-on)
+  (spacemacs/toggle-vi-tilde-fringe-on)
   )
 
 ;;; funcs.el ends here
