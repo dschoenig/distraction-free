@@ -14,6 +14,7 @@
   '(
     visual-fill-column
     writeroom-mode
+    writegood-mode
     ))
 
 (defun distraction-free/init-visual-fill-column ()
@@ -21,5 +22,8 @@
 
 (defun distraction-free/init-writeroom-mode ()
   (use-package writeroom-mode :defer t))
+
+(defun distraction-free/init-writegood-mode ()
+  (use-package writegood-mode :defer t))
 
 ;;; packages.el ends here
