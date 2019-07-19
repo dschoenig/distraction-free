@@ -2,7 +2,7 @@
 
 ## Description
 
-This layer adds a distraction-free writing environment to Spacemacs, taking inspiration from [iA Writer](https://ia.net/writer), which is unfortunately not available for Linux. The layer relies mainly on the [`writeroom-mode`](https://github.com/joostkremers/writeroom-mode) package. It works well in conjunction with the `markdown` layer of Spacemacs.
+This layer adds a distraction-free writing environment to Spacemacs, taking inspiration from [iA Writer](https://ia.net/writer), which is unfortunately not available for Linux. The layer relies mainly on the [`writeroom-mode`](https://github.com/joostkremers/writeroom-mode) package. It works well in conjunction with the `markdown` layer of Spacemacs. The layer also includes the [`writegood-mode`](https://github.com/bnbeckwith/writegood-mode) package.
 
 By using the `distraction-free-typewriter` function, the vertical position of cursor may be fixed to the middle of the screen.
 
@@ -20,9 +20,13 @@ The layer depends on the [iA Writer fonts](https://github.com/iaolo/iA-Fonts) to
 
 ## Keybindings
 
-| Key Binding | Description                         |
-| :--         | :--                                 |
+| Key Binding | Description                     |
+| :--         | :--                             |
 | `SPC d d`   | Toggle distraction-free editing |
-| `SPC d t`   | Toggle typewriter-like editing      |
+| `SPC d t`   | Toggle typewriter-like editing  |
+| `SPC d f`   | Focus on current line           |
+| `SPC d w`   | Enable writegood-mode           |
+| `SPC d m t` | Switch to text mode             |
+| `SPC d m m` | Switch to markdown mode         |
 
 Font size and writing area can be scaled by entering the font scaling transient state with `SPC z x`.
