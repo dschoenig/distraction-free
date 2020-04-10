@@ -79,7 +79,8 @@
         (distraction-free-disable)
         (text-mode)
         (distraction-free-enable)
-        (spacemacs/toggle-fullscreen-frame-on)
+        (spacemacs/toggle-fullscreen)
+        ;; (remove-from-invisibility-spec 'markdown-markup)
         )
     (progn
       (text-mode))))
@@ -91,7 +92,7 @@
         (distraction-free-disable)
         (markdown-mode)
         (distraction-free-enable)
-        (spacemacs/toggle-fullscreen-frame-on)
+        (spacemacs/toggle-fullscreen)
         )
     (progn
       (markdown-mode))))
