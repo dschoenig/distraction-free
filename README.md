@@ -15,18 +15,18 @@ To use this configuration layer, place it into ~/.emcas.d/private/
 
 Then add `distraction-free` to the existing `dotspacemacs-configuration-layers` list in you `~/.spacemacs` file.
 
-The layer depends on the [iA Writer fonts](https://github.com/iaolo/iA-Fonts) to be installed. Optionally, you can install the [corresponding theme](https://github.com/dschoenig/distraction-free-theme) which attempts to emulate the colour scheme used by iA Writer.
+The layer depends on the [iA Writer fonts](https://github.com/iaolo/iA-Fonts) to be installed. Optionally, you can install the [corresponding theme](https://github.com/dschoenig/distraction-free-theme) which attempts to emulate the colour scheme used by iA Writer. The theme is also necessary for the `Focus on current line` functionality, as the corresponding adjustments for colours and highlighting are specified within the theme, in the functions `distraction-free-focus-on` and `distraction-free-focus-off`.
 
 
 ## Keybindings
 
 | Key Binding | Description                     |
 | :--         | :--                             |
-| `SPC d d`   | Toggle distraction-free editing |
-| `SPC d t`   | Toggle typewriter-like editing  |
-| `SPC d f`   | Focus on current line           |
-| `SPC d w`   | Enable writegood-mode           |
-| `SPC d m t` | Switch to text mode             |
-| `SPC d m m` | Switch to markdown mode         |
+| `SPC W d`   | Toggle distraction-free editing |
+| `SPC W t`   | Toggle typewriter-like editing  |
+| `SPC W f`   | Focus on current line           |
+| `SPC W w`   | Enable writegood-mode           |
+| `SPC W m t` | Switch to text mode             |
+| `SPC W m m` | Switch to markdown mode         |
 
 Font size and writing area can be scaled by entering the font scaling transient state with `SPC z x`.
